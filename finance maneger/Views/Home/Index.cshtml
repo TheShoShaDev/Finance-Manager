@@ -1,0 +1,41 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<head>
+	<link rel="stylesheet" href="~/css/MyCss.css"/>
+</head>
+
+<body>
+
+	<ul class="FinanceList">
+		<li class="FinanceList_Item">
+			Current Balane: *Insert Value*
+		</li>
+		<li class="FinanceList_Item">
+			Spent This Week: *Insert Value*
+		</li>
+	</ul>
+	<a href="Home/AddTransaction"> Add Transacion </a>
+
+	<table class="FinanceTable">
+		<tr>
+			<th>Date</th>
+			<th>Description</th>
+			<th>Summary</th>
+			<th>Category</th>
+		</tr>
+		<tr>
+			<td>2023-01-01</td>
+			<td>Test</td>
+			<td>150</td>
+			<td>Test</td>
+			<td>
+				<a href="/Home/Detele/1"> Detele </a>
+				<a href="/Home/Edit/1"> Edit </a>
+			</td>
+		</tr>
+	</table>
+
+
+</body>

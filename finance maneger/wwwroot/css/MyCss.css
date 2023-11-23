@@ -1,0 +1,30 @@
+﻿.FinanceList
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.FinanceList_Item 
+{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px; /*Отсуп текста от границ*/
+    border: 2px solid black; /*толщина границ черный*/
+    border-radius: 5px; /*скругление углов в 5 пикселей*/
+}
+
+.FinanceTable
+{
+  width:100%;
+  padding:0;
+  margin:0;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.FinanceTable td
+{
+    border: 1px solid black;
+    padding: 3px;
+}
